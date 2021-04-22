@@ -7,4 +7,5 @@ export const exampleSubsriber = async (
   const pubsubClient = new PubSubClient();
   const data = pubsubClient.read(message);
   console.log('Subscriber Example');
+  console.log(data);
 };
